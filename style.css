@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header-nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    column-gap: 22px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+font-size: 18px;
+font-weight: 400;
+
+}
+.nav-list:hover{
+    cursor: pointer;
+    
+}
+.nav-btn>button{
+    color: white;
+    padding: 15px;
+    background-color: blue  ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.nav-btn>button:hover{
+    background-color: red;
+}
+.haeder-text-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.haeder-text-h>H1{
+font-size: 68px;
+font-weight: 700;
+color: #211F54;
+
+}
+.haeder-text-h>p{
+    color: #6E7191;
+    margin-top: 22px;
+font-size: 21px;
+font-weight: 400;
+
+
+}
+.sectin-btn{
+    margin-top: 40px;
+    padding: 16px 28px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-right: 29px;
+}
+.sectin-btn:hover{
+    background-color: green;
+}
+.phone{
+  
+    background-color: white;
+    padding: 15px ;
+    border-radius: 25px;
+    border: #DCDDEB 1px solid;
+}
+.phone>i{
+    color: blue;
+    
+}
+.ota{
+    display: flex;
+
+}
+.section-footer-2{
+    display: flex;
+    
+    align-items: center;
+}
+.phone{
+    margin-top: 39px;
+    margin-right: 10px;
+}
+.span-ota{
+    margin-top: 39px;
+}
+.span-1{
+    color: #6E7191;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+
+}
+.span-2{
+font-size: 18px;
+font-weight: 700;
+line-height: 36.01px;
+color: #211F54;
+}
+/* -----------------------main qism------------------------- */
+main{
+    margin-top: 240px;
+}
+.main-div-text{
+
+    text-align: center;
+}
+.main-div-text>h1{
+    margin-bottom: 21px;
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+color: #211F54;
+
+}
+.main-div-text>p{
+font-size: 21px;
+font-weight: 400;
+text-align: center;
+color: #6E7191;
+}
